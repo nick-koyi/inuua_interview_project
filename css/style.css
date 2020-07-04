@@ -1,0 +1,73 @@
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+header {
+	height: 600px;
+	background-image: url('../img/plan_image.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
+header .top-left-text {
+	background: #1d253b;
+	max-width: 300px;
+	padding: 10px;
+	padding-top: 20px;
+	text-align: center;
+	border-radius: 0 0 20px 0
+}
+
+header .top-left-text p {
+	font-size: 1.1em;
+}
+
+#sec-2 i {
+	padding-right: 10px;
+	color: #9ca0a9;
+}
+
+#sec-3 {
+	margin-top: 30px;
+}
+
+#sec-3 .fa-info-circle {
+	font-size: 1.2em;
+	padding-left: 10px;
+}
+
+#sec-4 ul {
+	list-style: none;
+}
+
+#sec-4 li:before {
+  content: "\f058";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 1.2rem;
+  padding-right: 10px;
+}
+
+.md-outline.select-wrapper+label {
+top: .5em !important;
+z-index: 2 !important;
+}
+
+footer h4 {
+	color: #9ca0a9;
+}
+
+footer .btn {
+	color: #fff;
+	background:  #1d253b;
+}
+
+footer .btn:hover {
+	color: #fff;
+}
+
+
+
+
+

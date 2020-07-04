@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Inuua Tujenge Interview Project</title>
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="top-left-text">
+	  <p class="white-text">1 person purchased this</p>
+	</div>
+  </header>
+  <section id="sec-1">
+    <div class="container d-flex pt-3">
+	  <p class="pr-4" style="color: #9ca0a9">Build cost</p>
+	  <p class="font-weight-bold">Ksh 5,747,856</p>
+	  <p class="ml-auto" style="color: #9ca0a9">ID 4231</p>
+	</div>
+  </section>
+  <section id="sec-2">
+    <div class="container">
+	  <h1 class="font-weight-bold">4 Bedroom Maisonette</h1>
+	  <i class="fas fa-bed"> 4</i>
+	  <i class="fas fa-bath"> 2</i>
+	  <i class="fas fa-chart-area"> 238m&sup2;</i>
+	</div>
+  </section>
+  <section id="sec-3">
+    <div class="container">
+	  <h4 class="d-inline">ADD ADDITIONAL MODULE</h4><i class="fas fa-info-circle"></i>
+	  <div class="row">
+	    <div class="col-md-6">
+		  <select class="mdb-select md-form md-outline colorful-select dropdown-primary">
+		  <option value="" disabled selected>Select</option>
+		  <option value="1">Option 1</option>
+		  <option value="2">Option 2</option>
+		  <option value="3">Option 3</option>
+		  </select>
+	   </div>
+	</div>
+	</div>
+  </section>
+  <section id="sec-4">
+    <div class="container">
+	  <h3 class="font-weight-bold">You'll get</h3>
+	  <ul>
+	    <li>Architectural drawings in PDF format</li>
+	    <li>Bills of materials and labour with budget costs</li>
+	    <li>Access to a project management tool to help you manage your build</li>
+	    <li>All engineering drawings</li>
+	    <li>Access to Inuua verified suppliers and contractors</li>
+	  </ul>
+	</div>
+  </section>
+  <footer>
+    <div class="container">
+	  <h4>PLAN PRICE</h4>
+	  <h4 class="font-weight-bold text-dark">Ksh 20,000</h4>
+	  <a href="#" class="btn btn-lg">LET'S START</a>
+	</div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script>
+// Material Select Initialization
+$(document).ready(function() {
+$('.mdb-select').materialSelect();
+$('.select-wrapper.md-form.md-outline input.select-dropdown').bind('focus blur', function () {
+$(this).closest('.select-outline').find('label').toggleClass('active');
+$(this).closest('.select-outline').find('.caret').toggleClass('active');
+});
+});
+  </script>
+</body>
+
+</html>
