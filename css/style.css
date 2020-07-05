@@ -68,7 +68,7 @@ footer .btn:hover {
 	color: #fff;
 }
 
-/* Small devices (landscape phones, 576px and down) */
+/* Small devices (landscpe phones, 576px and down) */
 @media (max-width: 576px) { 
 header {
 	background-size: contain;
